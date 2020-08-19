@@ -1,4 +1,4 @@
-Changed Kingfisher download image
+Changed image download module to Kingfisher
 
 # Lightbox
 
