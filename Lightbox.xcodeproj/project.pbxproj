@@ -16,6 +16,7 @@
 		44E6A6662495C0EB00543CF0 /* Lightbox.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D523B0A91C43AA2A001AD1EC /* Lightbox.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		44E6A66A2495C13F00543CF0 /* Imaginary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2A58F5D1F7943A30064F14E /* Imaginary.framework */; };
 		44E6A66B2495C13F00543CF0 /* Imaginary.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D2A58F5D1F7943A30064F14E /* Imaginary.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		89DBED36FE2486E6F2FDAF70 /* libPods-Lightbox-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F3F82B116BED2B6A20BB1562 /* libPods-Lightbox-iOS.a */; };
 		D22006741DFB4D9700E92898 /* Lightbox.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D22006731DFB4D9700E92898 /* Lightbox.bundle */; };
 		D2258CC4215CD035005A9A1C /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2258CC3215CD035005A9A1C /* Color+Extensions.swift */; };
 		D2A58F5E1F7943A30064F14E /* Imaginary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2A58F5D1F7943A30064F14E /* Imaginary.framework */; };
@@ -66,6 +67,7 @@
 		44E6A6552495BFAC00543CF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		44E6A6572495BFAC00543CF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		44E6A65B2495BFD400543CF0 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4D426612D3B8A022F30CE9C9 /* Pods-Lightbox-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lightbox-iOS.release.xcconfig"; path = "Target Support Files/Pods-Lightbox-iOS/Pods-Lightbox-iOS.release.xcconfig"; sourceTree = "<group>"; };
 		D22006731DFB4D9700E92898 /* Lightbox.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Lightbox.bundle; sourceTree = "<group>"; };
 		D2258CC3215CD035005A9A1C /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
 		D2A58F5D1F7943A30064F14E /* Imaginary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Imaginary.framework; path = Carthage/Build/iOS/Imaginary.framework; sourceTree = "<group>"; };
@@ -83,6 +85,8 @@
 		D573A2F41C5B5CA4006053DD /* LightboxTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LightboxTransition.swift; sourceTree = "<group>"; };
 		D573A2F61C5B5E55006053DD /* UIView+Gradient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Gradient.swift"; sourceTree = "<group>"; };
 		D58A18CA1C5ABF8F000024BB /* FooterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
+		D62AD2B8CEBF28824EF3F1B4 /* Pods-Lightbox-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lightbox-iOS.debug.xcconfig"; path = "Target Support Files/Pods-Lightbox-iOS/Pods-Lightbox-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		F3F82B116BED2B6A20BB1562 /* libPods-Lightbox-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Lightbox-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2A58F5E1F7943A30064F14E /* Imaginary.framework in Frameworks */,
+				89DBED36FE2486E6F2FDAF70 /* libPods-Lightbox-iOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,6 +123,15 @@
 			path = iOSDemo;
 			sourceTree = "<group>";
 		};
+		A3A9D84A1F897CBD40F3EF93 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D62AD2B8CEBF28824EF3F1B4 /* Pods-Lightbox-iOS.debug.xcconfig */,
+				4D426612D3B8A022F30CE9C9 /* Pods-Lightbox-iOS.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		D22006721DFB4D9700E92898 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -130,6 +144,7 @@
 			isa = PBXGroup;
 			children = (
 				D2A58F5D1F7943A30064F14E /* Imaginary.framework */,
+				F3F82B116BED2B6A20BB1562 /* libPods-Lightbox-iOS.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -143,6 +158,7 @@
 				44E6A6482495BFAB00543CF0 /* iOSDemo */,
 				D523B0AA1C43AA2A001AD1EC /* Products */,
 				D2A58F5C1F7943A30064F14E /* Frameworks */,
+				A3A9D84A1F897CBD40F3EF93 /* Pods */,
 			);
 			indentWidth = 4;
 			sourceTree = "<group>";
@@ -238,6 +254,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D523B0B11C43AA2A001AD1EC /* Build configuration list for PBXNativeTarget "Lightbox-iOS" */;
 			buildPhases = (
+				9EA798F9EFAC63BF0C67CA69 /* [CP] Check Pods Manifest.lock */,
 				D523B0A41C43AA2A001AD1EC /* Sources */,
 				D523B0A51C43AA2A001AD1EC /* Frameworks */,
 				D523B0A61C43AA2A001AD1EC /* Headers */,
@@ -310,6 +327,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9EA798F9EFAC63BF0C67CA69 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Lightbox-iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		44E6A6432495BFAB00543CF0 /* Sources */ = {
@@ -536,6 +578,7 @@
 		};
 		D523B0B21C43AA2A001AD1EC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D62AD2B8CEBF28824EF3F1B4 /* Pods-Lightbox-iOS.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				DEFINES_MODULE = YES;
@@ -548,7 +591,7 @@
 				);
 				INFOPLIST_FILE = Lightbox/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = no.hyper.Lightbox;
 				PRODUCT_NAME = Lightbox;
@@ -559,6 +602,7 @@
 		};
 		D523B0B31C43AA2A001AD1EC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D426612D3B8A022F30CE9C9 /* Pods-Lightbox-iOS.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				DEFINES_MODULE = YES;
@@ -571,7 +615,7 @@
 				);
 				INFOPLIST_FILE = Lightbox/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = no.hyper.Lightbox;
 				PRODUCT_NAME = Lightbox;
