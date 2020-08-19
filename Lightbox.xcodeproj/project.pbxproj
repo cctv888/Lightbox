@@ -10,11 +10,12 @@
 		166E3BA920333E04006799C1 /* LightboxImageStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166E3BA820333E04006799C1 /* LightboxImageStub.swift */; };
 		3A3CC38824ECBE28003C23F6 /* Lightbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D523B0A91C43AA2A001AD1EC /* Lightbox.framework */; };
 		3A3CC38924ECBE29003C23F6 /* Lightbox.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D523B0A91C43AA2A001AD1EC /* Lightbox.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3A3CC3A224ED229E003C23F6 /* Pods_Lightbox_iOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3A3CC3A024ED229E003C23F6 /* Pods_Lightbox_iOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		44E6A64A2495BFAB00543CF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E6A6492495BFAB00543CF0 /* AppDelegate.swift */; };
 		44E6A6532495BFAC00543CF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44E6A6522495BFAC00543CF0 /* Assets.xcassets */; };
 		44E6A6562495BFAC00543CF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44E6A6542495BFAC00543CF0 /* LaunchScreen.storyboard */; };
 		44E6A65C2495BFD400543CF0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E6A65B2495BFD400543CF0 /* ViewController.swift */; };
-		53CC5FD9D8CD5EFC16E3AAF6 /* libPods-Lightbox-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C042DD506D52A25C529882BA /* libPods-Lightbox-iOS.a */; };
+		53D1CBB51FBAE8E5CCFE1BA6 /* libPods-Lightbox-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EEF5E89B266BE55B9E001519 /* libPods-Lightbox-iOS.a */; };
 		D22006741DFB4D9700E92898 /* Lightbox.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D22006731DFB4D9700E92898 /* Lightbox.bundle */; };
 		D2258CC4215CD035005A9A1C /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2258CC3215CD035005A9A1C /* Color+Extensions.swift */; };
 		D2D71BBC1D54DA77006AB907 /* AssetManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D71BBB1D54DA77006AB907 /* AssetManager.swift */; };
@@ -53,10 +54,22 @@
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3A3CC3A324ED229E003C23F6 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				3A3CC3A224ED229E003C23F6 /* Pods_Lightbox_iOS.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		166E3BA820333E04006799C1 /* LightboxImageStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightboxImageStub.swift; sourceTree = "<group>"; };
+		3A3CC3A024ED229E003C23F6 /* Pods_Lightbox_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_Lightbox_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		44E6A6472495BFAB00543CF0 /* iOSDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44E6A6492495BFAB00543CF0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		44E6A6522495BFAC00543CF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -64,7 +77,6 @@
 		44E6A6572495BFAC00543CF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		44E6A65B2495BFD400543CF0 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7D97C7E8E47FA46DB2E9BA99 /* Pods-Lightbox-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lightbox-iOS.debug.xcconfig"; path = "Target Support Files/Pods-Lightbox-iOS/Pods-Lightbox-iOS.debug.xcconfig"; sourceTree = "<group>"; };
-		C042DD506D52A25C529882BA /* libPods-Lightbox-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Lightbox-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF82AD1CD203FAB03713B26A /* Pods-Lightbox-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lightbox-iOS.release.xcconfig"; path = "Target Support Files/Pods-Lightbox-iOS/Pods-Lightbox-iOS.release.xcconfig"; sourceTree = "<group>"; };
 		D22006731DFB4D9700E92898 /* Lightbox.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Lightbox.bundle; sourceTree = "<group>"; };
 		D2258CC3215CD035005A9A1C /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
@@ -82,6 +94,7 @@
 		D573A2F41C5B5CA4006053DD /* LightboxTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LightboxTransition.swift; sourceTree = "<group>"; };
 		D573A2F61C5B5E55006053DD /* UIView+Gradient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Gradient.swift"; sourceTree = "<group>"; };
 		D58A18CA1C5ABF8F000024BB /* FooterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
+		EEF5E89B266BE55B9E001519 /* libPods-Lightbox-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Lightbox-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,7 +110,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53CC5FD9D8CD5EFC16E3AAF6 /* libPods-Lightbox-iOS.a in Frameworks */,
+				53D1CBB51FBAE8E5CCFE1BA6 /* libPods-Lightbox-iOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -127,7 +140,7 @@
 		D2A58F5C1F7943A30064F14E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C042DD506D52A25C529882BA /* libPods-Lightbox-iOS.a */,
+				EEF5E89B266BE55B9E001519 /* libPods-Lightbox-iOS.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -251,6 +264,7 @@
 				D523B0A51C43AA2A001AD1EC /* Frameworks */,
 				D523B0A61C43AA2A001AD1EC /* Headers */,
 				D523B0A71C43AA2A001AD1EC /* Resources */,
+				3A3CC3A324ED229E003C23F6 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -602,6 +616,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = no.hyper.Lightbox;
 				PRODUCT_NAME = Lightbox;
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				USER_HEADER_SEARCH_PATHS = "";
 			};
@@ -629,6 +644,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = no.hyper.Lightbox;
 				PRODUCT_NAME = Lightbox;
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				USER_HEADER_SEARCH_PATHS = "";
 			};
