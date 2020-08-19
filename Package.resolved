@@ -2,20 +2,11 @@
   "object": {
     "pins": [
       {
-        "package": "Cache",
-        "repositoryURL": "https://github.com/hyperoslo/Cache",
+        "package": "Kingfisher",
+        "repositoryURL": "https://github.com/onevcat/Kingfisher",
         "state": {
           "branch": "master",
-          "revision": "042b2cd22d3c8c30fdcead0c613de94a1d648123",
-          "version": null
-        }
-      },
-      {
-        "package": "Imaginary",
-        "repositoryURL": "https://github.com/hyperoslo/Imaginary",
-        "state": {
-          "branch": "master",
-          "revision": "bc3e2f925f374b10ec61979ae9e20531d5d72677",
+          "revision": "175eeb4618b0a6ef4d69a7409b6a74ddd235a093",
           "version": null
         }
       }

@@ -5,15 +5,15 @@ Pod::Spec.new do |s|
   s.homepage         = "https://github.com/hyperoslo/Lightbox"
   s.license          = 'MIT'
   s.author           = { "Hyper Interaktiv AS" => "ios@hyper.no" }
-  s.source           = { :git => "https://github.com/hyperoslo/Lightbox.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/cctv888/Lightbox.git" }
   s.social_media_url = 'https://twitter.com/hyperoslo'
-  s.platform     = :ios, '9.0'
+  s.platform     = :ios, '10.0'
   s.requires_arc = true
   s.source_files = 'Source/**/*'
   s.ios.resource = 'Resources/Lightbox.bundle'
 
   s.frameworks = 'UIKit', 'AVFoundation', 'AVKit'
-  s.dependency 'Imaginary', '~> 4.3.1'
+  s.dependency 'Kingfisher'
   s.swift_version = '5.0'
 
 end
